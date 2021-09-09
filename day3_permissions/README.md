@@ -65,7 +65,7 @@ drwxr-xr-x.    2 perezgiz pustaff    178 Oct 10 18:08 introlinux
 ```
 * `r` -- you can see the contents of that folder, i.e. `ls` it
 * `w` -- you can change the contents (add or delete files)
-* `x` -- you can enter the folder (`cd` into it), and access files
+* `x` -- you can (actually execute) enter the folder (`cd` into it), and access files
   within the folder even without `cd`ing into it
 
 ## `chmod`
