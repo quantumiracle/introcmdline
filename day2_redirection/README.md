@@ -125,3 +125,8 @@ This group exercise will require a lot of reading of `man` pages and
 iterative trial and error, and it brings together most (or all) of the
 skills we've learned so far.  Go for it!
 
+
+One answer is:
+```
+tr ' '/'.'/','/':' '\n'  < usdec.txt| sort | uniq -c| sort -g -r | head -n 21 | tail -n 20 | tee -a usdechistogram.txt
+```
