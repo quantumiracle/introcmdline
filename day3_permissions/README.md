@@ -69,8 +69,11 @@ drwxr-xr-x.    2 perezgiz pustaff    178 Oct 10 18:08 introlinux
   within the folder even without `cd`ing into it
   
   first rwx: current user
+  
   second rwx: users in the same group
+  
   third rwx: all on the system
+
 
 ## `chmod`
 You can change permission states using the command `chmod`. `touch` a file named `test.txt`,
