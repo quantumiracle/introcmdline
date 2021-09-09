@@ -46,3 +46,5 @@ they're all modified).
 ### QUESTION
 
 What do you think the `rm` command *really* does?
+
+Just delete the registered (or say unregister) node ID for the file. 
